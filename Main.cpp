@@ -1,6 +1,5 @@
 #include <iostream>
 #include"BSTree.h"
-#include"BTree.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -50,19 +49,7 @@ int main()
 	cout << BST.Internal_Node_Count_With1branch();
 
 
-	/*BTree<int> BT;
-	BT.Insert(7);
-	BT.Insert(4);
-	BT.Insert(9);
-	BT.Insert(3);
-	BT.Insert(8);
-	BT.Insert(2);
-	BT.Insert(10);
-	BT.Insert(11);
-	BT.Insert(1);
-	cout << BT.Leaves_count() << endl;
-	cout << BT.Internal_Node_Count() << endl;
-	BT.OutputTree();*/
+
 
 	return 0;
 }
